@@ -114,7 +114,7 @@ elif selected_nav == "About Us":
     with col1:
         st.image("image/avatar.png", use_column_width="auto")
         st.markdown(
-            f"<div class='avatar-container'><a class='avatar-link' href='{url_surendar}'>Surendar k</a><p>tkbsurendar5@gmail.com</p></div>",
+            f"<div class='avatar-container'><a class='avatar-link' href='{url_surendar}'>Surendar K</a><p>tkbsurendar5@gmail.com</p></div>",
             unsafe_allow_html=True,
         )
         with st.expander("Expand to know more about me"):

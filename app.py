@@ -16,6 +16,7 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import streamlit as st
 import nbformat
 
+
 def print_ipynb_cells(notebook_path):
     st.title("Explore Encoder Page")
     st.write("This is where you can explore the encoder.")

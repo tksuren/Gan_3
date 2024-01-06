@@ -14,18 +14,20 @@ import matplotlib.pyplot as plt
 from scipy.stats import percentileofscore
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import streamlit as st
-from base64 import b64encode
+import nbformat
 
+def print_ipynb_cells(notebook_path):
+    st.title("Explore Encoder Page")
+    st.write("This is where you can explore the encoder.")
 
+    # Read the content of the IPython Notebook
+    with open(notebook_path, "r", encoding="utf-8") as notebook_file:
+        notebook_content = nbformat.read(notebook_file, as_version=4)
 
-def embed_pdf(pdf_path):
-    with open(pdf_path, "rb") as f:
-        pdf_bytes = f.read()
-        pdf_b64 = b64encode(pdf_bytes).decode('utf-8')
-
-    pdf_embed = f'<iframe src="data:application/pdf;base64,{pdf_b64}" width="700" height="500" frameborder="0"></iframe>'
-    
-    st.markdown(pdf_embed, unsafe_allow_html=True)
+    # Display each code cell in the notebook
+    for cell in notebook_content.cells:
+        if cell.cell_type == 'code':
+            st.code(cell.source, language='python')
 
 # Set page configuration
 st.set_page_config(page_title="Generative AI", page_icon=":graduation_cap:", layout="wide")
@@ -369,8 +371,9 @@ elif selected_nav == "Project":
 
 elif selected_nav == "Explorer":
 
-    pdf_path="files/autoencoder.pdf"
-    embed_pdf(pdf_path)
+
+    notebook_path = "files/autoencoder.ipynb"
+    print_ipynb_cells(notebook_path)
 
 
 elif selected_nav == "video":

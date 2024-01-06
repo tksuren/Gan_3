@@ -16,6 +16,8 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import streamlit as st
 from base64 import b64encode
 
+
+
 def embed_pdf(pdf_path):
     with open(pdf_path, "rb") as f:
         pdf_bytes = f.read()

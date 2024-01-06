@@ -14,20 +14,33 @@ import matplotlib.pyplot as plt
 from scipy.stats import percentileofscore
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import streamlit as st
-import nbformat
 
-def print_ipynb_cells(notebook_path):
-    st.title("Explore Encoder Page")
-    st.write("This is where you can explore the encoder.")
+def display_images(images):
+    st.text("Displaying 4 images:")
+    for image in images:
+        st.image(image, caption="Image", use_column_width=True)
 
-    # Read the content of the IPython Notebook
+
+
+
+
+
+def download_code(notebook_path):
     with open(notebook_path, "r", encoding="utf-8") as notebook_file:
-        notebook_content = nbformat.read(notebook_file, as_version=4)
+        notebook_content = notebook_file.read()
 
-    # Display each code cell in the notebook
-    for cell in notebook_content.cells:
-        if cell.cell_type == 'code':
-            st.code(cell.source, language='python')
+    st.download_button(
+        label="Download Code",
+        data=notebook_content.encode("utf-8"),
+        key="download_code",
+        file_name="autoencoder.ipynb",
+        mime="application/octet-stream",
+    )
+
+
+
+
+
 
 # Set page configuration
 st.set_page_config(page_title="Generative AI", page_icon=":graduation_cap:", layout="wide")
@@ -373,7 +386,10 @@ elif selected_nav == "Explorer":
 
 
     notebook_path = "files/autoencoder.ipynb"
-    print_ipynb_cells(notebook_path)
+    st.title("Donwload the code by clicking download button")
+    download_code(notebook_path)
+    images = ["image/img1.png", "image/img2.png", "image/img3.png", "image/img4.png","image/img5.png","image/img6.png","image/img7.png"]
+    display_images(images)
 
 
 elif selected_nav == "video":

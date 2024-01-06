@@ -54,7 +54,7 @@ with st.container():
             <p>Analysis of Youtube Comments to provide Quality Videos to the User</p>
             <p><strong>Mentor:</strong> Prof. Dr. Deivamani M</p>
             <p><strong>Industry Expert:</strong> Mr. Muthumani M</p>
-            <p>Visit our Github Page by clicking <a href=" link   " target="_blank">here</a></p>
+            <p>Visit our Github Page by clicking <a href="https://github.com/tksuren/Gan_3" target="_blank">here</a></p>
         </div>
         """,
         unsafe_allow_html=True,

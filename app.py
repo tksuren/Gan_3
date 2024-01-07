@@ -78,8 +78,8 @@ with st.container():
     st.markdown(
         """
         <div style="text-align: center;">
-            <h2>Welcome to the Home of Development Team</h2>
-            <p>Analysis of Youtube Comments to provide Quality Videos to the User</p>
+            <h2>Welcome to GAN Floor Plan Generation Team</h2>
+            <p>Generation of new floor plan images using GAN and Autoencoder .</p>
             <p><strong>Mentor:</strong> Prof. Dr. Deivamani M</p>
             <p><strong>Industry Expert:</strong> Mr. Muthumani M</p>
             <p>Visit our Github Page by clicking <a href="https://github.com/tksuren/Gan_3" target="_blank">here</a></p>

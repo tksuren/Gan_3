@@ -19,7 +19,7 @@ This project focuses on the development of a hybrid approach for generating arch
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/floor-plan-generation.git
+    git clone https://github.com/tksuren/Gan_3.git
     ```
 
 2. Install dependencies:

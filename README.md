@@ -9,9 +9,10 @@ project report pdf [click here to view Project Report](files/project_report.pdf)
 
 project source code [click here to view Project source code ](files/autoencoder.pdf)
 
-project website video link  [![    Watch the video](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/0.jpg)](https://youtu.be/4vZ-Bx8Bqoo)
+project presentation video link   [![Watch the video]](https://youtu.be/8uGcMgpR0HQ)
 
-project presentation video link   [![    Watch the video](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/0.jpg)](https://youtu.be/8uGcMgpR0HQ)
+project website video link  [![    Watch the video]](https://youtu.be/4vZ-Bx8Bqoo)
+
 
 
 

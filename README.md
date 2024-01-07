@@ -9,6 +9,9 @@ project website video link  [![    Watch the video](https://img.youtube.com/vi/Y
 
 project presentation video link   [![    Watch the video](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/0.jpg)](https://youtu.be/8uGcMgpR0HQ)
 
+[Click here to view the PDF file](files/project_report.pdf)
+
+
 This project focuses on the development of a hybrid approach for generating architectural floor plans using Generative Adversarial Networks (GANs) and Autoencoders. The goal is to leverage the strengths of both models to create diverse and realistic floor plans, contributing to the fields of artificial intelligence, computer vision, and architecture.
 
 ### Team Members

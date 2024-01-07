@@ -187,9 +187,9 @@ elif selected_nav == "About Us":
     st.markdown(
         """
         <div style="text-align: center;">
-            <p>We, the students of the College of Engineering, Anna University, are currently pursuing Master of Computer Applications.
-            Under the guidance of Dr. Deivamani M (Assistant Professor) and Mr. Muthumani M (Industry Expert) in our academic journey,
-            we have collaboratively worked on enhancing Artificial Intelligence, focusing on the responsible identification and mitigation of bias utilizing it in recommendation systems.</p>
+            <p>We, the students of the College of Engineering, Anna University, are currently pursuing Master
+              of Computer Applications. Under the guidance of Dr. Deivamani M (Assistant Professor) and Mr. Muthumani M (Industry Expert) in our academic journey, we have collaboratively
+              worked on enhancing Artificial Intelligence, focusing on working with Generative Adversial Network and Autoencoders.</p>
         </div>
         """,
         unsafe_allow_html=True,

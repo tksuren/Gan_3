@@ -411,7 +411,7 @@ elif selected_nav == "Contact Us":
     st.markdown(
         """
         <div style="text-align: center;">
-            <p><b>General Inquiries:</b> praveen.jobconnect@gmail.com</p>
+            <p><b>General Inquiries:</b> praveenkumar.jobconnect@gmail.com</p>
             <p><b>Technical Support:</b> tkbsurendar5@gmail.com</p>
             <p><b>Project Related Queries:</b> deepanraj@gmail.com</p>
         </div>

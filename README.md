@@ -3,11 +3,11 @@
 ## Floor Plan Generation Using GAN
 
 ### Project Overview
-project website link  https://generativeaigroup3.streamlit.app/  
+project website link      https://generativeaigroup3.streamlit.app/  
 
-project website video link  [![Watch the video](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/0.jpg)](https://youtu.be/4vZ-Bx8Bqoo)
+project website video link  [![    Watch the video](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/0.jpg)](https://youtu.be/4vZ-Bx8Bqoo)
 
-project presentation video link   [![Watch the video](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/0.jpg)](https://youtu.be/8uGcMgpR0HQ)
+project presentation video link   [![    Watch the video](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/0.jpg)](https://youtu.be/8uGcMgpR0HQ)
 
 This project focuses on the development of a hybrid approach for generating architectural floor plans using Generative Adversarial Networks (GANs) and Autoencoders. The goal is to leverage the strengths of both models to create diverse and realistic floor plans, contributing to the fields of artificial intelligence, computer vision, and architecture.
 

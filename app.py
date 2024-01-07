@@ -16,7 +16,7 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import streamlit as st
 
 def display_images(images):
-    st.text("The Notebook for project")
+    st.text("The Notebook for project with examples for Plant Image")
     for image in images:
         st.image(image, caption="Image", use_column_width=True)
 

@@ -5,15 +5,15 @@ from streamlit_lottie import st_lottie
 import plotly.express as px
 
 # Coding - Sentiment Analysis
-from googleapiclient.discovery import build
-from googleapiclient.errors import HttpError
-from langdetect import detect
+
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-from scipy.stats import percentileofscore
-from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+
+
 import streamlit as st
+
+
 
 def display_images(images):
     st.text("Displaying 4 images:")
@@ -51,6 +51,9 @@ def load_lottieurl(url):
         return None
     return r.json()
 
+
+
+
 st.markdown(
     """
     <div style="text-align: center;">
@@ -66,9 +69,11 @@ selected_nav = option_menu(
     menu_title=None,
     options=["Home", "About Us", "Project", "Explorer","video","Contact Us"],
     icons=["house", "person-badge", "book", "flag"],
-    default_index=0,
-    orientation="horizontal",
+    default_index=1,
+    orientation="vertical",
 )
+
+
 
 # Assets
 lottie_coding = "https://lottie.host/37ba51a6-3953-4bf7-a72b-09bd2a22ab3b/yHsfbMKPn1.json"
